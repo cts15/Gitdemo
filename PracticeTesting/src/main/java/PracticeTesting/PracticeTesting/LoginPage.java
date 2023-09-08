@@ -31,4 +31,8 @@ public class LoginPage {
 			passwordelement.sendKeys(password);
 			login.click();
 		}
+		public void goTo()
+		{
+			driver.get("http://www.demo.guru99.com/V4/");
+		}
 }
